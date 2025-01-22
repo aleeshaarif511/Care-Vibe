@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/lavender">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="188dp"
+
+
+        android:gravity="center"
+        android:text="So stupid of ME!!! I hereby promise that i will try not to forget my password."
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_Promise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="224dp"
+        android:backgroundTint="@color/white"
+        android:text="I Promise!!"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

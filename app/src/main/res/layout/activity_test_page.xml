@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/lavender"> <!-- Lavender background -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Patient Info Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/card_background"
+            android:elevation="6dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: John Doe"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age: 25"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender: Male"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Info: +1234567890"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <!-- Buttons Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btnEditProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Profile"
+                android:backgroundTint="@android:color/white"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="16dp"
+                android:padding="12dp" />
+
+            <Button
+                android:id="@+id/btnUploadFiles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Files"
+                android:backgroundTint="@android:color/white"
+                android:textColor="@android:color/black"
+                android:padding="12dp" />
+        </LinearLayout>
+
+        <!-- See Appointments Button -->
+        <Button
+            android:id="@+id/btnSeeAppointments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@android:color/white"
+            android:padding="12dp"
+            android:text="See Appointments"
+            android:textColor="@android:color/black" />
+
+        <!-- Pill Reminder Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btnAddPillReminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Pill Reminder"
+                android:backgroundTint="@android:color/white"
+                android:textColor="@android:color/black"
+                android:layout_marginEnd="16dp"
+                android:padding="12dp" />
+
+            <Button
+                android:id="@+id/btnViewPillReminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Pill Reminder"
+                android:backgroundTint="@android:color/white"
+                android:textColor="@android:color/black"
+                android:padding="12dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
